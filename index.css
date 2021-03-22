@@ -1,0 +1,187 @@
+   *{
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+	list-style: none;
+	font-family: algerian;
+
+}
+
+.navbar{
+	width: 100%;
+	position: fixed;
+	background-color:  #1d428a;
+	padding: 5px 0px;
+
+}
+.navbar .max-width{
+
+	width: 1200px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	align-content: auto;
+}
+.logo a{
+	color: #fff;
+	font-size: 40px;
+	font-weight: 500;
+}
+.logo span{
+	color: crimson;
+}
+.menu li{
+	display: inline-block;
+}
+.menu{
+	padding-top: 10px;
+	padding-right: 35px;
+}
+.menu li a{
+	color: white;
+	font-size: 20px;
+	font-weight: 300;
+	margin-left: 25px;
+	transition: color 1s;
+}
+
+.menu li a:hover{
+	color: black;
+	}
+
+.menu li a:hover{
+	color: black;
+	}
+	.men{
+		display:none;
+		position: absolute;
+	}
+	.menu li:hover .men  {
+	display: block;
+
+	}
+	.men li{
+width: 100%;
+text-align: center;
+background-color:orange ;
+border:2px solid white;
+}
+	.min{
+		display:none;
+		position: absolute;
+	}
+	.menu li:hover .min  {
+	display: block;
+
+	}
+	.min li{
+width: 100%;
+text-align: center;
+background-color:orange ;
+border:2px solid white;
+}
+
+/****************************************************************/
+ 
+ 
+
+
+ /*********************************************************************************************/
+     .i{
+	display: grid;
+	background-color: crimson;
+	height: 100%;
+	padding-top: 50px;
+     }
+  .i3{
+  	display: flex;
+	width: 600px;
+	border:1px solid gray;
+  background-color: #fff;
+ 	margin-left: 190px;
+	height: 500px;
+border-radius: 10px;
+ margin-bottom: 30px;
+ }
+
+ .i2{
+ 	display: flex;
+ 	margin-left: 20px;
+ 	margin-right: 20px;
+  width: 300px;
+ 	border: 1px solid gray;
+ background-color: #fff;
+ 	height: 500px;
+border-radius: 10px;
+ 
+  }
+
+
+.i1{
+	display: flex;
+	width: 300px;
+	border:1px solid gray;
+  background-color: #fff;
+ 	margin-left: 20px;
+	height: 445px;
+border-radius: 10px;
+margin-top: 02px;
+margin-bottom: 30px;
+  }
+   .i4{
+   	display: flex;
+      	width: 600px;
+	border:1px solid gray;
+  background-color: #fff;
+ 	margin-left: 190px;
+	height: 450px;
+border-radius: 10px;
+margin-top: 10px;
+margin-bottom: 30px;
+
+   }
+
+   .i5{
+      	width: 900px;
+	border:1px solid gray;
+  background-color: #fff;
+ 	margin-left: 195px;
+	height: 510px;
+border-radius: 10px;
+margin-top: 05px;
+margin-bottom: 100px;
+   }
+
+
+.us1{
+  background:url(' lac.png') center center;
+width: 100%;
+padding-top: 110px;
+ 	background-size: contain;
+ 		height: 510px;
+	object-fit: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+ 
+
+  }
+ 
+
+footer span{
+  	color: black;
+ 	font-family: Times New Roman;
+ 	text-align: center;
+ 	font-size:1.1em;
+
+}
+footer{
+  bottom: 0px;
+ 	background-color:  white;
+	color:white;
+	font-family: cursive;
+	height: 50;
+	font-family: algerian;
+	 	text-align: center;
+	 	font-size:1.1em;
+ width: 100%;
+  }

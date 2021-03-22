@@ -1,0 +1,137 @@
+   *{
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+	list-style: none;
+	font-family: algerian;
+
+}
+
+.navbar{
+	width: 100%;
+	position: fixed;
+	background-color: #1d428a;;
+	padding: 5px 0px;
+
+}
+.navbar .max-width{
+
+	width: 1200px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	align-content: auto;
+}
+.logo a{
+	color: #fff;
+	font-size: 40px;
+	font-weight: 500;
+}
+.logo span{
+	color: crimson;
+}
+.menu li{
+	display: inline-block;
+}
+.menu{
+	padding-top: 10px;
+	padding-right: 35px;
+}
+.menu li a{
+	color: white;
+	font-size: 20px;
+	font-weight: 300;
+	margin-left: 25px;
+	transition: color 1s;
+}
+
+.menu li a:hover{
+	color: black;
+	}
+
+.menu li a:hover{
+	color: black;
+	}
+	.men{
+		display:none;
+		position: absolute;
+	}
+	.menu li:hover .men  {
+	display: block;
+
+	}
+	.men li{
+width: 100%;
+text-align: center;
+background-color:orange ;
+border:2px solid white;
+}
+	.min{
+		display:none;
+		position: absolute;
+	}
+	.menu li:hover .min  {
+	display: block;
+
+	}
+	.min li{
+width: 100%;
+text-align: center;
+background-color:orange ;
+border:2px solid white;
+}
+
+/*******************************************************************************/
+
+.team{
+ 	padding: 50px 15px;
+	padding-top: 110px;
+	background-color: rgba(0,0,0,.1);
+}
+ 
+
+
+
+.team  .team-content{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.team .tep{
+	font-size: 40px;
+	font-weight: 500;
+	text-align: center;
+	text-decoration: underline crimson;
+color:#555;
+
+}
+.team .tep1{
+	font-size: 20px;
+	font-weight: 500;
+	text-align: center;
+	text-decoration: underline crimson;
+	padding-bottom: 80px;
+	color:gray;
+
+}
+/************************************************************************************************/
+
+ 
+footer span{
+  	color: black;
+ 	font-family: Times New Roman;
+ 	text-align: center;
+ 	font-size:1.1em;
+
+}
+footer{
+  bottom: 0px;
+ 	background-color: gray;
+	color:white;
+	font-family: cursive;
+	height: 50;
+	font-family: algerian;
+	 	text-align: center;
+	 	font-size:1.1em;
+ width: 100%;
+  }
